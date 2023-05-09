@@ -24,6 +24,8 @@ class TaskListViewController: UIViewController, UITableViewDelegate, UITableView
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationController?.navigationBar.prefersLargeTitles = true
+        self.tableView.layer.cornerRadius = 10
+        
         }
     
     
